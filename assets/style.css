@@ -1,0 +1,98 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  border: none;
+}
+body {
+  min-height: 100vh;
+}
+header {
+  width: 20%;
+  padding: 10px;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+}
+
+.caixa {
+  border: 2px solid #ffffffa6;
+  background-color: white;
+  padding: 50x;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 5em;
+}
+#caixa1 {
+  display: flex;
+}
+.input {
+  text-align: center;
+  font-size: 1.5em;
+  width: 680px;
+  height: 288px;
+  top: 168px;
+  left: 240px;
+  gap: 0px;
+  opacity: 0px;
+}
+#caixa2 {
+  background-color: rgb(238, 238, 238);
+  width: 400px;
+  height: 600px;
+  top: 40px;
+  left: 1000px;
+  gap: 0px;
+  border-radius: 32px 0px 0px 0px;
+  opacity: 0px;
+  margin-top: 0;
+  margin-bottom: 30px;
+}
+.content {
+  width: 400px;
+  height: 500px;
+  text-align: center;
+  font-size: 1.5em;
+}
+.input-txt {
+  display: flex;
+  font-size: 1.5em;
+  width: 680px;
+  height: 200px;
+  top: 168px;
+  left: 240px;
+  gap: 0px;
+  opacity: 0px;
+}
+.warning {
+  font-size: 15px;
+  color: rgb(167, 164, 164);
+  padding-left: 10px;
+}
+.btn {
+  display: flex;
+  justify-content: center;
+}
+.btnc{
+    display: flex;
+    justify-content: center;
+}
+button {
+  margin: 10px;
+  width: 150px;
+  height: 40px;
+  color: #edecf1;
+  border-radius: 10px;
+  background-color: rgb(26, 38, 199);
+  cursor: pointer;
+}
+
+    
+footer {
+  text-align: center;
+}
+
